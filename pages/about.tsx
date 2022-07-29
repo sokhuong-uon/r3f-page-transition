@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
 	return (
-		<div className="w-0 h-0">
+		<div className="w-0 h-0 ">
 			<Head>
 				<title>Template</title>
 				<meta name="description" content="" />
@@ -13,4 +13,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default About;
